@@ -24,5 +24,5 @@ scrollReveal.reveal(
 .s-contact,
 .title-contact,
 .tag .form-contact`,
-  { interval: 100 }
+  { interval: 90 }
 );

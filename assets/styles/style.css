@@ -122,11 +122,12 @@ header .container nav .menu-social img:hover {
 .s-success .container {
   display: flex;
   align-items: center;
-  gap: 4.4rem;
+  gap: 3.4rem;
 }
 
-.s-success .container .title-success h2 span {
+.s-success .container .title-success h2  {
   font-family: "Inter", sans-serif;
+  font-size: 4.5rem;
 }
 
 .s-success .container .cards {
@@ -291,6 +292,10 @@ header .container nav .menu-social img:hover {
 
 .s-contact .container .title-contact h2 {
   margin-bottom: 2.4rem;
+}
+
+.s-contact .container .title-contact h2 span{
+ color:#00ffdd
 }
 
 .s-contact .container .form-contact {

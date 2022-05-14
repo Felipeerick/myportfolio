@@ -1,14 +1,202 @@
 @media (max-width: 1200px) {
+
 }
 
 @media (max-width: 991px) {
 }
 
 @media (max-width: 768px) {
+
 }
 
 @media (max-width: 600px) {
+
 }
 
-@media (max-width: 480px) {
-}
+@media (max-width: 480px) { 
+    
+    /*inicio do header*/
+    .menu-item {
+     font-size: 1.3rem;
+     
+    } 
+    
+    .container{
+        max-width: 440px;
+    }
+
+    header .container{
+        margin-top: 60px;
+    }
+
+    header .container .logo img{
+        position: absolute;
+        width: 90px;
+        margin-right: 1.0rem;
+        z-index: 1;
+        top: 20px;
+        left: 10px;
+        
+    }
+         .s-hero{
+              max-width: 380px; 
+         }
+
+    header .container nav .menu li {
+        margin-right: 2.8rem;
+        max-width: 480px;
+    }
+   a.btn-primary{
+       font-size: 1.2rem;
+       padding: 0.5rem 1.0rem;
+   }
+
+   .menu-social li{
+          
+       position: relative;
+       top: -93px;
+       left: -110px;
+   }
+
+   /*Fim do header*/
+
+   /*s-hero*/
+    .s-hero .container .title h1{
+        font-size: 3.5rem;
+    }
+
+     .s-hero .container .title h2{
+         font-size: 1.9rem;
+     }
+
+     .s-hero .container .title p{
+         font-size: 1.5rem;
+         color: #00ffdd;
+     }
+
+   /*fim do s-hero*/
+
+   /*S-sucess*/
+   .s-success .container .title-success h2{
+      font-size: 3.2rem;
+      position: relative;
+       bottom: 460px;
+       left: 70px;
+   }
+
+  .s-success .container .title-success .tag{
+       position:relative;
+      bottom: 443px;
+      z-index: 1;
+      left: 70px;
+
+   }
+   .s-success .container .cards{
+      display: flex;
+    font-size: 3.2rem;
+       position: relative;
+       right: 230px;
+       flex-direction: column;
+       top: 140px;
+   }
+   /*Fim do s-sucess*/
+
+   /*about*/
+     
+     .about .container{
+         width: 200px;
+     }
+
+    .s-about .container .about-me p{
+        font-size: 1.3rem;
+        width: 300px;
+    }
+
+    .s-about .container .about-me h2 {
+     font-size: 3.4rem;
+    }
+ 
+        .my-picture {
+         position: absolute;
+         width: 100px;
+         right: 120px;
+         height: 200px;
+         
+     }
+
+     .s-about{
+         padding: 2rem;
+     }
+
+
+   /*fim do about*/
+
+   /*s-case*/
+   .s-cases .container .title-cases h2{
+       font-size: 4.3rem;
+       position: absolute;
+       left: 80px;
+       top: -70px;
+   }
+
+   .s-cases .container .cases .case:first-child {
+    width: 300px;
+       position: relative;
+       top: -40px;
+   }
+
+   .s-cases .container .cases .case:nth-child(2){
+       position: absolute;
+       top: 40px;
+      left: 50px;
+     width: 200px;
+   }
+
+   .s-cases .container .cases .case:last-child {
+       position: absolute;
+       top: 130px;
+       width: 160px;
+       left: 100px;
+       z-index: 1;
+   }
+   /*fim do s-cases*/
+
+    /*contact*/
+      .s-contact .container .tag{
+          position: absolute;
+          font-size: 1.1rem;
+         top: -130px;
+         left: 180px;
+
+      }
+
+      .s-contact .container .title-contact h2{
+       font-size: 2.0rem;  
+       position: relative;
+      bottom: 160px;
+      left: 20px;
+      line-height: 3rem;
+    }
+
+    .s-contact .container .form-contact .input-group{
+           width: 300px;
+           position: relative;
+           right: 90px;
+       }      
+       
+       .s-contact .container .form-contact button{
+           position: relative;
+           right: 90px;
+       }
+     /*fim do contact*/
+   
+      /*copy*/
+        footer .container .copy p{
+             width: 150px;
+             position: relative;
+             left: -30px;   
+        }
+
+
+      /*Fim do copy*/
+    }
